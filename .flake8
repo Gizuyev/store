@@ -1,0 +1,9 @@
+[flake8]
+exclude =
+    migrations[flake8]
+    venv/,
+    some_folder_to_exclude/,
+    file_to_exclude.py,
+    0001_initial.py,
+
+max-line-length = 125
